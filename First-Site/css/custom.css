@@ -1,0 +1,80 @@
+/* Move down content because we have a fixed navbar that is 50px tall */
+body {
+  padding-top: 50px;
+}
+.jumbotron {
+	text-align: center;
+	background-image: url(../images/hero_image.jpg);
+}
+.jumbotron h1, ul.nav,h2,.container h3 {
+	font-family: 'Arvo', serif;
+}
+ul.nav {
+	font-size: 13px;
+}
+.btn-lg
+{
+	font-size: 36px;
+}
+.jumbotron h1
+{
+	margin-top: 0px;
+	margin-bottom: 50px;
+	color: white ;
+}
+.jumbotron p {
+	margin-bottom: 30px;
+	color: white ;
+	font-weight: 100 ;
+	padding: 0px 50px ;
+}
+.emphasis {
+	color: orange ;
+	font-size: 1.3em;	
+}
+h2,h3 {
+	color: green ;
+}
+.container {
+	text-align: center;
+}
+.get-involved h2, .get-involved h3 {
+	text-transform: uppercase;
+}
+.get-involved p {
+	font-weight: 300 ;
+	font-size: 15px;
+	padding: 0px 10px;	
+}
+.get-involved a, .whoweare a {
+	color: green;
+}
+.fa-circle {
+	color: orange;
+}
+.whoweare hr, .get-involved hr {
+	border-color: green;
+	width: 20%;
+	margin: 30px auto;
+}
+.whoweare p {
+	text-align: center;
+	font-weight: 300;
+	font-size: 20px;
+}
+.whoweare a:hover {
+	text-decoration: none;
+	opacity: .7;
+}
+#get-involved {
+	background-color: #f5f5f5;
+}
+.whoweare,.get-involved {
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+footer {
+	background-color: green;
+	padding-top: 200px;
+	padding-bottom: 15px;
+}
