@@ -36,7 +36,7 @@
     <![endif]-->
   </head>
 
-  <body data-spy="scroll" data-target=".navbar-collapse" data-offset="50"> <!-- Didn't work -->
+  <body data-spy="scroll" data-target=".navbar-collapse" data-offset="80"> <!-- Hadi dyal Spyscrolling -->
   <!-- En-tête -->
     <nav class="navbar navbar-inverse navbar-fixed-top">
       <div class="container">
@@ -49,20 +49,18 @@
           <span class="icon-bar"></span>        
           </button>
 
-          <a class="navbar-brand" href="#"><img src="images/top_logo.png" alt="One million lines" title="One million lines"></a>
+          <a class="navbar-brand" href="#jumbotron"><img src="images/top_logo.png" alt="One million lines" title="One million lines"></a>
         </div>
-        <div id="nav">
-          <div id="navbar" class="collapse navbar-collapse">
-            <ul class="nav navbar-nav navbar-right">
-              <li><a href="#whoweare">Who -we are</a></li>
-              <li><a href="#get-involved">Get involved</a></li>
-            </ul>
-          </div><!--/.nav-collapse -->
-        </div>
+        <div id="navbar" class="collapse navbar-collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#whoweare">Who we are</a></li>
+            <li><a href="#get-involved">Get involved</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
       </div>
     </nav>
     <!-- Main jumbotron for a primary marketing message or call to action -->
-    <div class="jumbotron">
+    <div id=jumbotron class="jumbotron">
       <div class="container">
         <h1>Our goal is to inspire <br>Tallahassee to write 1,000,000<br> lines of code_</h1>
           <p>All over the country people are taking the <strong>HOUR OF CODE</strong> challenge
@@ -138,5 +136,6 @@
     <script src="js/bootstrap.min.js"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+    <script src="js/smoothscroll.js"></script> <!-- Hada zidto ana dyal Smooth Scrolling -->
   </body>
 </html>
