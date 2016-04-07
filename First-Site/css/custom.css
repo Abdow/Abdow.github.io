@@ -77,12 +77,22 @@ footer {
 	background-color: green;
 	padding-top: 200px;
 	padding-bottom: 15px;
+	position: relative; /* ça change rien, ça permet de modifier la position d'autres éléments dans le footer en utilisant "relative" */
 }
 #backtotop a {
 	color: #333;
 }
 #backtotop {
-	position: fixed;
+	position: fixed; /* elle permet la fixation du bouton dans toute la page */
+	position: absolute; /* elle permet la fixation du bouton dans la balise parente ayant comme position:relative; */
 	bottom: 20px;
 	right:20px;
+}
+.modal-content {
+	padding: 30px 20px;
+}
+.mosal-content button {
+	position: 	absolute;
+	top: 	0px;
+	right: 	10px;
 }

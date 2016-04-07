@@ -68,7 +68,17 @@
           the capital of Florida, Tallahassee, the community is taking the challenge and our
           goal is to write 1,000,000 lines of code_
           </p>
-          <p><a class="btn btn-success btn-lg" href="#" role="button">Learn more &raquo;</a></p>
+          <p><a class="btn btn-success btn-lg" href="#" role="button" data-toggle="modal" data-target="#myModal">Learn more &raquo;</a></p>
+          <!-- Modal -->
+          <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                 <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                  .<iframe src="https://player.vimeo.com/video/76759703?autoplay=0&color=green&title=0&byline=0&portrait=0" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+              </div>
+            </div>
+          </div>
+          <!-- Modal end -->
           <img src="images/code.png" title="Code.org logo" alt="Code.org">
       </div>
     </div>
@@ -123,11 +133,10 @@
     <p><img src="images/bottom_logo.png" alt="Footer Image" title="Footer Logo"></p>
     <!--  Bouton Back to top -->
     <div id="backtotop">
-      <a href="#jumbotron">
+      <a href="#jumbotron" title="Back to top">
         <i class="fa fa-chevron-circle-up fa-3x"></i>
       </a>
     </div>
-
   </footer>
 
 
@@ -136,10 +145,10 @@
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+    <script>window.jQuery || document.write('<script src="js/jquery.min.js"><\/script>')</script>
     <script src="js/bootstrap.min.js"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+    <script src="js/ie10-viewport-bug-workaround.js"></script>
     <script src="js/smoothscroll.js"></script> <!-- Hada zidto ana dyal Smooth Scrolling -->
   </body>
 </html>
