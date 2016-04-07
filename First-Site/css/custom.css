@@ -91,8 +91,15 @@ footer {
 .modal-content {
 	padding: 30px 20px;
 }
-.mosal-content button {
+.modal-content button {
 	position: 	absolute;
 	top: 	0px;
 	right: 	10px;
+}
+.modal-dialog {
+	position: absolute;
+	left: 50% ;
+	margin-left: -300px; /* Half the div size */
+	top: 50%;
+	margin-top: -174px; /* Half the div size */
 }
