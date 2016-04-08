@@ -132,16 +132,24 @@ h6, .h6 {
   letter-spacing: -5px;
 }
 
+.navbar-right li>a {
+  font-weight: 500;
+}
+.navbar-right li>a:hover {
+  border-bottom : 3px solid;
+  padding-bottom: 12px; /* Look at 06.005. 05:30 */
+}
+
 /* Child Pseudo-elements */
 .navbar-collapse .navbar-right>li:first-child>a {
-color: #e67e22;
+  color: #e67e22;
 }
 .navbar-collapse .navbar-right>li:nth-child(2)>a {
-color: #27ae60;
+  color: #27ae60;
 }
 .navbar-collapse .navbar-right>li:nth-child(3)>a {
-color: #3498db;
+  color: #3498db;
 }
 .navbar-collapse .navbar-right>li:nth-child(4)>a {
-color: #8e44ad;
+  color: #8e44ad;
 }
