@@ -82,10 +82,16 @@ h6, .h6 {
 .blog-post-title {
   margin-bottom: 5px;
   font-size: 40px;
+  font-family: 'Open Sans', Georgia, "Times New Roman", Times, serif;
+  color: #555;
+  font-weight: 600;
+  font-height: 1.2em;
 }
 .blog-post-meta {
   margin-bottom: 20px;
   color: #999;
+  font-style: italic;
+  font-size: 0.9em;
 }
 
 
