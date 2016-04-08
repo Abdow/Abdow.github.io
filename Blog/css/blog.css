@@ -93,6 +93,19 @@ h6, .h6 {
   font-style: italic;
   font-size: 0.9em;
 }
+.blog-post-meta button {
+  margin-right: 8px;
+  padding: 2px;
+  background-color: #e67e22 ;
+  border-color: #e67e22;
+}
+
+.blog-post-meta button:hover {
+  border: solid;
+  background-color: #d35400 ;
+  border-color: #d35400;
+  padding: 0px;
+}
 
 
 /*
@@ -109,7 +122,6 @@ h6, .h6 {
 .blog-footer p:last-child {
   margin-bottom: 0;
 }
-
 
 .navbar-brand {
   font-family: 'Lato', sans-serif;
