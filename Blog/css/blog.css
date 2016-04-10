@@ -124,6 +124,10 @@ h6, .h6 {
 .blog-post-meta .btn a {
  color: white;
 }
+.blog-post img {
+  max-width: 100%;
+  margin-bottom: 20px;
+}
 
 /*
  * Footer
