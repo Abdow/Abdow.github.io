@@ -190,6 +190,6 @@ h6, .h6 {
   text-align: justify;
   text-rendering: optimizeLegibility;
 }
-.center {
+#subscribe .center {
   text-align: center;
 }
