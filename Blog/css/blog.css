@@ -46,6 +46,7 @@ h6, .h6 {
 .sidebar-module {
   padding: 15px;
   margin: 0 -15px 15px;
+
 }
 .sidebar-module-inset {
   padding: 15px;
@@ -129,7 +130,7 @@ h6, .h6 {
   margin-bottom: 20px;
 }
 .blog-sidebar {
-  padding-left: 50px;
+  padding-left: 50px ;
 }
 
 /*
