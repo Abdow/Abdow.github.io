@@ -175,3 +175,21 @@ h6, .h6 {
 .navbar-collapse .navbar-right>li:nth-child(4)>a {
   color: #8e44ad;
 }
+/* Sidebar */
+
+#subscribe {
+  border: 3px dotted #3498db;
+}
+
+#subscribe h4 {
+  font-family:'Roboto Condensed','Open Sans', Georgia, "Times New Roman", Times, serif;
+  font-size: 1.7em;
+}
+
+#subscribe p {
+  text-align: justify;
+  text-rendering: optimizeLegibility;
+}
+.center {
+  text-align: center;
+}
