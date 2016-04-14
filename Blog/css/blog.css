@@ -231,3 +231,12 @@ h6, .h6 {
   border: 3px solid #efefef ;
   border-radius: 8px;
 }
+
+/* Media querries */
+
+@media (max-width: 911px) {
+  #subscribe h4 {
+    text-align: center;
+  }
+
+}
