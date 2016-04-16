@@ -134,6 +134,21 @@ h6, .h6 {
 }
 
 /*
+  About page
+ */
+.about-page img {
+ border-radius: 50%;
+ padding-bottom: 20px;
+ float: left;
+}
+.about-page p {
+ clear: left;
+}
+.about-page h1 {
+ font-family: 'Open Sans',serif;
+ font-weight: 200;
+}
+/*
  * Footer
  */
 
