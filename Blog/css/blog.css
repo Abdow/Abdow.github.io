@@ -140,7 +140,7 @@ h6, .h6 {
 .about-page img {
  border-radius: 50%;
  padding-bottom: 20px;
- float: left;
+ max-width: 100%;
 }
 .about-page p {
  clear: left;
