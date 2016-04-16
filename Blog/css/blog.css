@@ -258,20 +258,27 @@ h6, .h6 {
   border-radius: 8px;
 }
 /* portfolio */
-.portfolio {
- padding-bottom: 20px;
- background-color: #eee;
- border: 3px solid white;
+#portfolio {
+ background-color: #F3F3F3;
  border-radius: 10px;
+ box-shadow: 0 10px 10px #999; */
 }
 .portfolio h2 {
  font-size: 20px;
  font-family: 'Open Sans',serif;
+ border-bottom: 1px dashed #e3e3e3;
+ padding: 0px 0px 3px 15px;
 }
 .portfolio img {
- max-width: 100%;
+ max-width: 90%;
+ margin: 10px 15px;
 }
-
+.portfolio p {
+ font-size: 12px;
+ font-family: 'Open Sans',serif;
+ padding: 0px 7px 3px 15px;
+ text-align: justify;
+}
 
 /* Media querries */
 
