@@ -212,19 +212,18 @@ h6, .h6 {
 
 /* Navbar */
 
-.navbar-brand {
-  font-family: 'Lato', sans-serif;
-  font-size: 2.8em;
-  font-weight: 100 ;
-  letter-spacing: -5px;
-}
-
 .navbar-right li>a {
   font-weight: 500;
 }
 .navbar-right li>a:hover {
   border-bottom : 3px solid;
   padding-bottom: 12px; /* Look at 06.005. 05:30 */
+}
+
+.navbar-brand img {
+  max-height: 50px;
+  margin: 0px;
+
 }
 
 /* Child Pseudo-elements */
