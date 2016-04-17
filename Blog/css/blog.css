@@ -175,9 +175,14 @@ h6, .h6 {
 
 .top-page {
  background-image: url(../images/background.png);
- margin: 40px 0px;
+ margin: 0px 0px 40px 0px;
  padding: 20px;
  text-align:center;
+ width: 100%;
+}
+
+#page-bottom {
+ text-align: center;
 }
 
 
