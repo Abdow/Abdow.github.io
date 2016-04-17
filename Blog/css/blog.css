@@ -223,7 +223,9 @@ h6, .h6 {
 .navbar-brand img {
   max-height: 50px;
   margin: 0px;
-
+}
+.navbar-brand {
+ padding: 0;
 }
 
 /* Child Pseudo-elements */
