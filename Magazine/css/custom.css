@@ -1,0 +1,10 @@
+.jumbotron {
+	background: url('../images/bg.jpg') no-repeat center center;
+	background-size: cover;
+	-o-background-size: cover;
+	-moz-background-size: cover;
+	-webkit-background-size: cover;
+	padding-top: 170px;
+	padding-bottom: 170px;
+	border-top: 3px solid #e74c3c;
+}
