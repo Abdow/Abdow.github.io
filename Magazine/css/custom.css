@@ -1,3 +1,10 @@
+@font-face {
+font-family: Bebas;
+src: url(../fonts/BebasNeue.otf);
+font-weight: 300;
+}
+
+
 .jumbotron {
 	background: url('../images/bg.jpg') no-repeat center center;
 	background-size: cover;
@@ -10,12 +17,13 @@
 }
 
 .jumbotron h1 {
-	font-family: Open Sans, arvo, "Helvetica neue", serif;
+	font-family: Bebas,Open Sans, arvo, "Helvetica neue", serif;
 	padding: 10px;
 	text-align: center;
 	margin: 10px 20px;
 	font-weight: 600;
 	font-size: 50px;
+	letter-spacing: 3px;
 	text-transform: uppercase;
 	color: white;
 	background-color: rgba(0,0,0,.1);
