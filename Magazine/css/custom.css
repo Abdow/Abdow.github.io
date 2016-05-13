@@ -42,6 +42,7 @@ font-weight: 300;
 	padding-top: 170px;
 	padding-bottom: 170px;
 	border-top: 3px solid #e74c3c;
+	border-bottom: 3px solid #e74c3c;
 	margin-top: -60px; /* 50px = height of ".navbar" + 10px of padding-top */
 	margin-bottom: 0px;
 }
