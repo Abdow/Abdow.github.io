@@ -4,35 +4,8 @@ src: url(../fonts/BebasNeue.otf);
 font-weight: 300;
 }
 
+/* Navbar */
 
-.jumbotron {
-	background: url('../images/bg.jpg') no-repeat center center;
-	background-size: cover;
-	-o-background-size: cover;
-	-moz-background-size: cover;
-	-webkit-background-size: cover;
-	padding-top: 170px;
-	padding-bottom: 170px;
-	border-top: 3px solid #e74c3c;
-	margin-top: -60px; /* 50px = height of ".navbar" + 10px of padding-top */
-}
-
-.jumbotron h1 {
-	font-family: Bebas,Open Sans, arvo, "Helvetica neue", serif;
-	padding: 10px;
-	text-align: center;
-	margin: 10px 20px;
-	font-weight: 600;
-	font-size: 50px;
-	letter-spacing: 3px;
-	text-transform: uppercase;
-	color: white;
-	background-color: rgba(0,0,0,.1);
-	text-shadow: 1px 1px 2px #333;
-}
-.highlight {
-	color: #e74c3c;
-}
 .navbar {
 	background-color: transparent;
 	border: none;
@@ -56,4 +29,57 @@ font-weight: 300;
 	color: white;
 	opacity: 1;
 	border-bottom: 3px solid white;
+}
+
+/* Jumbotron */
+
+.jumbotron {
+	background: url('../images/bg.jpg') no-repeat center center;
+	background-size: cover;
+	-o-background-size: cover;
+	-moz-background-size: cover;
+	-webkit-background-size: cover;
+	padding-top: 170px;
+	padding-bottom: 170px;
+	border-top: 3px solid #e74c3c;
+	margin-top: -60px; /* 50px = height of ".navbar" + 10px of padding-top */
+	margin-bottom: 0px;
+}
+
+.jumbotron h1 {
+	font-family: Bebas,Open Sans, arvo, "Helvetica neue", serif;
+	padding: 10px;
+	text-align: center;
+	margin: 10px 20px;
+	font-weight: 600;
+	font-size: 50px;
+	letter-spacing: 3px;
+	text-transform: uppercase;
+	color: white;
+	background-color: rgba(0,0,0,.1);
+	text-shadow: 1px 1px 2px #333;
+}
+.highlight {
+	color: #e74c3c;
+}
+
+/* Containers */
+
+#bottom-blocks .col-md-4 {
+	min-height: 300px;
+}
+
+#bloc1 {
+	background: url('../images/1.png') center center no-repeat;
+	background-size: cover;
+}
+
+#bloc2 {
+	background: url('../images/2.png') center center no-repeat;
+	background-size: cover;
+}
+
+#bloc3 {
+	background: url('../images/3.png') center center no-repeat;
+	background-size: cover;
 }
